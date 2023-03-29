@@ -17,7 +17,7 @@ pipeline{
         echo 'testing the application...'
         snykSecurity(
           severity: 'high',
-          snykInstallation: 'snyk-latest',
+          snykInstallation: 'snyk@latest',
           snykTokenId: 'organization-snyk-api-token',
           // place other parameters here
         )
